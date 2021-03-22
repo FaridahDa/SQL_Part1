@@ -27,5 +27,5 @@ Book_Format varchar(30) not null,
 Book_Quantity int not null,
 
 
-foreign key (Books_Status_ID) REFERENCES library_books (Books_ID)
+foreign key (Book_Status_ID) REFERENCES library_books (Books_ID)
 );
