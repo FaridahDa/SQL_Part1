@@ -29,3 +29,19 @@ Book_Quantity int not null,
 
 foreign key (Book_Status_ID) REFERENCES library_books (Books_ID)
 );
+
+select * from library_books;
+
+UPDATE library_books SET ISBN = '2222-2222'
+	WHERE ISBN = '6782-74924';
+    
+SELECT concat(Book_title, ' by ', Author) AS title_and_author
+FROM library_books;
+
+SELECT distinct Genre from library_books;
+
+SELECT * from library_books
+ORDER BY Book_title;
+
+SELECT * from library_books
+WHERE Books_ID >= 5;
