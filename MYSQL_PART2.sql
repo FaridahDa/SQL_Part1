@@ -17,7 +17,7 @@ VALUES('The Cat I Never Named', 'Amra', '8689-95859', 'Fiction'),
 ('Atomatic Habits', 'James Clear', '1234-56789', 'Non-Fiction'),
 ('Promised Land', 'Barack Obama', '8475-06957', 'Non-Fiction'),
 ('Autobiography of Malcolm X', 'Alex Haley', '7564-74647', 'Non-Fiction'),
-('Think Like A Monk', 'Jay Shetty', '8595-74636', 'Non-Fiction')
+('Think Like A Monk', 'Jay Shetty', '8595-74636', 'Non-Fiction');
 
 use Library;
 create table Book_status 
@@ -45,3 +45,8 @@ ORDER BY Book_title;
 
 SELECT * from library_books
 WHERE Books_ID >= 5;
+
+select distinct genre from library_books; 
+
+
+
