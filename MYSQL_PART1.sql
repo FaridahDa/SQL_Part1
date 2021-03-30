@@ -35,6 +35,15 @@ VALUES ('Melissa', 'Beckham', '25 Dulwhich House', 'SE22 9DS', '1964-10-05','202
 ('Angelina', 'Jolie', 'Columbia Road', 'W8 SN7', '1975-06-04','2021-01-01', 'YES'),
 ('Bilbo', 'Baggins', 'The Shire', 'P20 7RP', '1976-09-22', '1980-09-22', 'YES');
 
+INSERT into Library_users (First_name, Last_name, Address, Postcode,DOB, Date_joined, Active_user)
+VALUES ('Ahmed', 'Rash', '12 Marcus Road', 'SE18 2ST', '2010-11-12', '2021-03-28', 'YES'),
+('Bambi', 'Halo', '45 Waterloo Road', 'SE10 6HD', '2020-01-19','2020-01-19', 'YES'),
+('Harry', 'Potter', 'Number 4 Pivet Drive', 'RG5 6XP', '2010-10-21', '2020-11-03', 'NO'),
+('Mac', 'Downs', '34 Book House', 'MA12 5ZA', '2007-05-01', '2017-04-30', 'YES'),
+('Leo', 'Maga', '67 Whitehorse Lane', 'CR4 7HA', '2005-09-11', '2020-12-10', 'NO');
+
+
+
 -- DROP TABLE Library_users;
 
 ALTER TABLE Library_users
